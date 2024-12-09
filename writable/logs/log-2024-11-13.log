@@ -1,0 +1,16 @@
+CRITICAL - 2024-11-13 18:39:46 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/faq')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/faq')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-13 18:40:10 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/faq')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/faq')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}

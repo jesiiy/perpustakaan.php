@@ -1,0 +1,22 @@
+CRITICAL - 2024-11-18 19:14:02 --> Cannot use object of type stdClass as array
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include()
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('buku', Array, true)
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(411): view('buku', Array)
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->buku()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}
+CRITICAL - 2024-11-18 19:24:09 --> Cannot use object of type stdClass as array
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include()
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('buku', Array, true)
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(411): view('buku', Array)
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->buku()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}

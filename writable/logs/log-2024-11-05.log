@@ -1,0 +1,36 @@
+CRITICAL - 2024-11-05 19:39:31 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/siswa')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/siswa')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-05 19:40:04 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/siswa')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/siswa')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-05 19:40:20 --> Class 'App\Controllers\M_belajar' not found
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+ERROR - 2024-11-05 19:41:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2024-11-05 19:41:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(30): App\Models\M_belajar->tampil('siswa', 'id_siswa')
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}

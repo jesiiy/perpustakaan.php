@@ -1,0 +1,177 @@
+ERROR - 2024-11-06 00:02:51 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2024-11-06 00:02:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(30): App\Models\M_belajar->tampil('siswa', 'id_siswa')
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}
+ERROR - 2024-11-06 00:06:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2024-11-06 00:06:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(30): App\Models\M_belajar->tampil('siswa', 'id_siswa')
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}
+ERROR - 2024-11-06 00:12:16 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2024-11-06 00:12:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\acer\Videos\perpus\perpus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(30): App\Models\M_belajar->tampil('siswa', 'id_siswa')
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#9 {main}
+CRITICAL - 2024-11-06 00:13:26 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:13:43 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:14:09 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:16:53 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:17:03 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:17:15 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2024-11-06 00:18:30 --> Invalid file: menu.php
+#0 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(32): view('menu')
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->siswa()
+#4 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+ERROR - 2024-11-06 19:10:18 --> Unknown column 'pasword' in 'field list'
+ERROR - 2024-11-06 19:13:28 --> Unknown column 'pasword' in 'field list'
+ERROR - 2024-11-06 20:51:40 --> Table 'perpustakaan1.jursan' doesn't exist
+CRITICAL - 2024-11-06 20:51:40 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(263): App\Models\M_belajar->tampil('jursan', 'id_jurusan')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->jurusan()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-06 21:04:09 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:04:41 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:04:47 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:04:51 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:05:00 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:08:34 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:10:56 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-06 21:12:58 --> Too few arguments to function App\Controllers\Home::editjurusan(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->editjurusan()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+ERROR - 2024-11-06 22:27:58 --> Unknown column 'id_siswa' in 'field list'

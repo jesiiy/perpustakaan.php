@@ -1,0 +1,167 @@
+ERROR - 2024-11-19 18:53:25 --> Unknown column 'id_siswa' in 'where clause'
+ERROR - 2024-11-19 19:00:39 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 19:05:14 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 19:09:07 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 19:32:07 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:32:07 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(207): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:32:08 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:32:08 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(207): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:32:17 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:32:17 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(207): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:33:00 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:33:00 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(206): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:33:12 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:33:12 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(206): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:43:31 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:43:31 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-19 19:43:31 --> Unknown column 'petugas.id_user' in 'on clause'
+CRITICAL - 2024-11-19 19:43:31 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(206): App\Models\M_belajar->join('petugas', 'user', 'petugas.id_user...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->petugas()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:45:28 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:45:28 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 19:47:56 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:47:56 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 19:50:35 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:50:35 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 19:55:28 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:55:28 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 19:58:30 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 19:58:30 --> Column 'id_user' cannot be null
+CRITICAL - 2024-11-19 19:59:27 --> syntax error, unexpected '}'
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/petugas')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/petugas')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-19 19:59:47 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 20:00:23 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 20:00:23 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 20:01:57 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 20:01:57 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 20:02:03 --> Unknown column 'nama_petugas' in 'field list'
+ERROR - 2024-11-19 20:02:03 --> Column 'id_user' cannot be null
+ERROR - 2024-11-19 20:39:16 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 20:50:25 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 20:53:44 --> Unknown column 'stok' in 'field list'
+CRITICAL - 2024-11-19 20:54:59 --> Too few arguments to function App\Models\M_belajar::edit(), 2 passed in C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php on line 567 and exactly 3 expected
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(567): App\Models\M_belajar->edit('peminjaman', Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->simpanpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-19 20:56:24 --> Too few arguments to function App\Models\M_belajar::edit(), 2 passed in C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php on line 567 and exactly 3 expected
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(567): App\Models\M_belajar->edit('peminjaman', Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->simpanpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-19 20:57:30 --> Call to a member function edit() on null
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->simpanpeminjaman()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+ERROR - 2024-11-19 20:58:52 --> Column 'id_siswa' cannot be null
+ERROR - 2024-11-19 21:01:33 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:01:38 --> Unknown column 'id_peminjaman' in 'where clause'
+ERROR - 2024-11-19 21:04:16 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:08:15 --> Unknown column 'id_peminjaman' in 'where clause'
+ERROR - 2024-11-19 21:14:38 --> Unknown column 'id_peminjaman' in 'where clause'
+ERROR - 2024-11-19 21:15:38 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:16:27 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:16:43 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:17:58 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:20:03 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:21:30 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:28:23 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:31:30 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:31:35 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:35:56 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:35:56 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:41:38 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:42:39 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:43:48 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:46:10 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:47:30 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 21:50:07 --> Unknown column 'id_peminjam' in 'order clause'
+CRITICAL - 2024-11-19 21:50:07 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(495): App\Models\M_belajar->tampil('peminjaman', 'id_peminjam')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->peminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-19 21:50:41 --> Too few arguments to function App\Controllers\Home::hapus_peminjaman(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->hapus_peminjaman()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-19 21:52:34 --> Too few arguments to function App\Controllers\Home::hapus_peminjaman(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->hapus_peminjaman()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+CRITICAL - 2024-11-19 21:53:56 --> Too few arguments to function App\Controllers\Home::hapus_peminjaman(), 0 passed in C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->hapus_peminjaman()
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#5 {main}
+ERROR - 2024-11-19 21:54:02 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 23:48:56 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 23:52:08 --> Unknown column 'stok' in 'field list'
+ERROR - 2024-11-19 23:52:32 --> Unknown column 'stok' in 'field list'

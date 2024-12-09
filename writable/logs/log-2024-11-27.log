@@ -1,0 +1,120 @@
+ERROR - 2024-11-27 18:50:11 --> Table 'perpustakaan1.jumlah' doesn't exist
+CRITICAL - 2024-11-27 18:50:11 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(606): App\Models\M_belajar->filter('jumlah', 'stok', 'jumlah.id_pemin...', 'tanggal_peminja...', 'tanggal_peminja...', '2024-10-27', '2024-11-28')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->downloadPDFpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-27 19:12:06 --> Table 'perpustakaan1.jumlah' doesn't exist
+CRITICAL - 2024-11-27 19:12:06 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(606): App\Models\M_belajar->filter('jumlah', 'stok', 'jumlah.id_pemin...', 'tanggal_peminja...', 'tanggal_peminja...', '2024-10-27', '2024-11-28')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->downloadPDFpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-27 19:27:32 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-27 19:28:04 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-27 19:30:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_peminjaman` < IS NULL' at line 4
+CRITICAL - 2024-11-27 19:30:51 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(607): App\Models\M_belajar->filter('peminjaman', 'buku', 'peminjaman.id_b...', 'tanggal_peminja...', 'tanggal_peminja...', NULL, NULL, 'id_peminjam')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->downloadPDFpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-27 19:33:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_peminjaman` < IS NULL' at line 4
+CRITICAL - 2024-11-27 19:33:33 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(607): App\Models\M_belajar->filter('peminjaman', 'buku', 'peminjaman.id_b...', 'tanggal_peminja...', 'tanggal_peminja...', NULL, NULL, 'id_peminjam')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->downloadPDFpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+ERROR - 2024-11-27 19:34:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_peminjaman` < IS NULL' at line 4
+CRITICAL - 2024-11-27 19:34:01 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(607): App\Models\M_belajar->filter('peminjaman', 'buku', 'peminjaman.id_b...', 'tanggal_peminja...', 'tanggal_peminja...', NULL, NULL, 'id_peminjam')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->downloadPDFpeminjaman()
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-27 19:49:08 --> Invalid argument supplied for foreach()
+#0 C:\Users\acer\Videos\perpus\perpus\app\Views\tcpdfpeminjaman.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\acer\\V...', 18, Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include('C:\\Users\\acer\\V...')
+#2 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('tcpdfpeminjaman', Array, true)
+#4 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(589): view('tcpdfpeminjaman')
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->tcpdfpeminjaman()
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#10 {main}
+CRITICAL - 2024-11-27 19:54:30 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\Users\acer\Videos\perpus\perpus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tcpdfpemin...')
+#1 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tcpdfpemin...')
+#2 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#6 {main}
+CRITICAL - 2024-11-27 21:03:30 --> Invalid argument supplied for foreach()
+#0 C:\Users\acer\Videos\perpus\perpus\app\Views\tcpdfpeminjaman.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\acer\\V...', 18, Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include('C:\\Users\\acer\\V...')
+#2 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('tcpdfpeminjaman', Array, true)
+#4 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(589): view('tcpdfpeminjaman')
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->tcpdfpeminjaman()
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#10 {main}
+CRITICAL - 2024-11-27 21:06:21 --> Invalid argument supplied for foreach()
+#0 C:\Users\acer\Videos\perpus\perpus\app\Views\tcpdfpeminjaman.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\acer\\V...', 18, Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include('C:\\Users\\acer\\V...')
+#2 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('tcpdfpeminjaman', Array, true)
+#4 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(589): view('tcpdfpeminjaman')
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->tcpdfpeminjaman()
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#10 {main}
+CRITICAL - 2024-11-27 21:06:49 --> Invalid argument supplied for foreach()
+#0 C:\Users\acer\Videos\perpus\perpus\app\Views\tcpdfpeminjaman.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\acer\\V...', 18, Array)
+#1 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(210): include('C:\\Users\\acer\\V...')
+#2 C:\Users\acer\Videos\perpus\perpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Videos\perpus\perpus\system\Common.php(1089): CodeIgniter\View\View->render('tcpdfpeminjaman', Array, true)
+#4 C:\Users\acer\Videos\perpus\perpus\app\Controllers\Home.php(589): view('tcpdfpeminjaman')
+#5 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(832): App\Controllers\Home->tcpdfpeminjaman()
+#6 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\acer\Videos\perpus\perpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Videos\perpus\perpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\acer\Videos\perpus\perpus\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#10 {main}
